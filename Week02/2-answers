@@ -1,0 +1,14 @@
+For Exercise 2:
+
+1.What do MSE, RMSE, and R² Score tell us about the model's performance?
+
+    . MSE (Mean Squared Error): Average of squared differences between predictions and actual values; sensitive to outliers
+    . RMSE (Root Mean Squared Error): Square root of MSE; in the same units as the target variable, making it interpretable
+    . R² Score: Proportion of variance explained by the model (1.0 is perfect, 0 means no better than predicting the mean)
+
+2.How can you tell if your model is overfitting or underfitting?
+
+    . Overfitting: Good performance on training data but poor performance on testing data
+    . Underfitting: Poor performance on both training and testing data
+    . Compare training and testing metrics - a large gap indicates overfitting
+    . Plot learning curves to visualize how error changes with more training data
