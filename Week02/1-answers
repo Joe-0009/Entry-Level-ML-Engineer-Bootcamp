@@ -1,0 +1,21 @@
+For Exercise 1:
+1.Why do we need to split our dataset?
+
+    We split data into training and testing sets to evaluate how well our model generalizes to new, unseen data
+    Training data is used to fit the model
+    Testing data helps us measure model performance on data it hasn't seen before
+    This helps prevent overfitting (when a model performs well on training data but poorly on new data)
+
+2.What are hyperparameters, and how do learning rate and epochs affect training?
+
+    Hyperparameters are configuration settings that control the learning process
+    Learning rate determines how large steps the model takes during optimization - too high may cause overshooting, too low may lead to slow convergence
+    Epochs represent how many times the model processes the entire dataset - more epochs allow more learning but risk overfitting
+
+3.Does using more features always improve the model?
+
+    No! More features can lead to:
+       . Overfitting due to increased model complexity
+       . Including irrelevant or noisy features that harm performance
+       . The "curse of dimensionality" where more dimensions make the data sparse
+    Feature selection/engineering to identify the most relevant predictors is often more valuable than simply adding more features
